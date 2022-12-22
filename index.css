@@ -1,0 +1,70 @@
+body {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    color: white;
+    margin: auto auto;
+    width: 446px
+}
+
+#appBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    border-top: 1px solid #2F3E53;
+    width: 446px;
+    margin-bottom: 35px;
+}
+
+#subheader {
+    text-shadow: 0 0 3px black;
+    font-weight: regular;
+    margin-top: 10px;
+    color: #D5D4D8;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: Inter;
+}
+
+#header {
+    text-shadow: 0 0 3px black;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-family: Karla;
+}
+
+#generatePasswords-btn {
+    margin-right: auto;
+    padding: 10px 15px;
+    background: #4ADF86;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+
+.generatedPasswords {
+    display: flex;
+    background: #273549;
+    width: 211px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    color: #4ADF86;
+    border-radius: 6px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+#randomPasswords {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
